@@ -1,7 +1,7 @@
 ---
 title: History
 ---
-# Test Historical Background of SiLNoRF
+# Historical Background of SiLNoRF
 
 - - -
 
