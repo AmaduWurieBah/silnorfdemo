@@ -8,7 +8,7 @@
 
     <Section class="membership">
       <div>
-       <img src="{{ .Resources.GetMatch `welcome.jpg`}}"> 
+       <img src="{{ .Params.photo}}"> 
       </div>
       <div id="struct">
           {{ with .Resources.GetMatch "membershipstruct.md" }}    
@@ -19,8 +19,7 @@
 
       <section class="board">
         <div class="memboard">
-            
-            <img src="{{ .Resources.GetMatch `more-info.jpg`}}">
+             <img src="{{.Params.photo}}"> 
             <p>
               {{ with .Resources.GetMatch "management.md" }}    
               {{ .Content}}
@@ -30,7 +29,7 @@
           <div class="memboard">
     
           <div>
-            <img src="{{ .Resources.GetMatch `more-info.jpg`}}"> 
+          <img src="{{ .Params.photo}}">
            </div>
            <p>
             {{ with .Resources.GetMatch "secretariate.md" }}    

@@ -6,12 +6,12 @@
     <ul>
     {{ range .Pages}}
   
-   <li><a href="{{.Permalink}}">
+   <li><a href="{{.URL}}">
        <h1>{{.Title}}</h1> 
     </a></li>
     <h4>{{.Params.address}}</h4>
     <p>{{.Description}}</p>
-    <a class="button" href="{{.Permalink}}">
+    <a class="button" href="{{.URL}}">
         <h2>{{.Params.read_more}}</h2> 
      </a>
     <hr>
