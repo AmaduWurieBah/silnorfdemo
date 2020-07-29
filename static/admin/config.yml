@@ -17,7 +17,7 @@ collections:
       - {label: "Featured Image", name: "icon", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "about" # Used in routes, e.g., /admin/collections/blog
+  - name: "about-history" # Used in routes, e.g., /admin/collections/blog
     label: "Our History" # Used in the UI
     folder: "content/about/history.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -26,7 +26,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "about" # Used in routes, e.g., /admin/collections/blog
+  - name: "about-management" # Used in routes, e.g., /admin/collections/blog
     label: "About Management" # Used in the UI
     folder: "content/about/management.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -36,7 +36,7 @@ collections:
       - {label: "Featured Image", name: "photo", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "about" # Used in routes, e.g., /admin/collections/blog
+  - name: "about-membership" # Used in routes, e.g., /admin/collections/blog
     label: "About Membership" # Used in the UI
     folder: "content/about/membershipstruct.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -46,7 +46,7 @@ collections:
       - {label: "Featured Image", name: "photo", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "about" # Used in routes, e.g., /admin/collections/blog
+  - name: "about-secretariate" # Used in routes, e.g., /admin/collections/blog
     label: "About Secretariate" # Used in the UI
     folder: "content/about/secretariate.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
