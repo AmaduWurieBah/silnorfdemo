@@ -1,5 +1,5 @@
 ---
-title: " DCI-SL"
+title: "DCI-SL"
 read_more: "Read More"
 address: "94 Teko Road Makeni"
 email: "dcimakeni@gmail.com"
