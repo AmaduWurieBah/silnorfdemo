@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+
 publish_mode: editorial_workflow
 media_folder: "static/images" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
@@ -25,7 +26,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
- - name: "about" # Used in routes, e.g., /admin/collections/blog
+  - name: "about" # Used in routes, e.g., /admin/collections/blog
     label: "About Management" # Used in the UI
     folder: "content/about/management.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -35,7 +36,7 @@ collections:
       - {label: "Featured Image", name: "photo", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
- - name: "about" # Used in routes, e.g., /admin/collections/blog
+  - name: "about" # Used in routes, e.g., /admin/collections/blog
     label: "About Membership" # Used in the UI
     folder: "content/about/membershipstruct.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -45,7 +46,7 @@ collections:
       - {label: "Featured Image", name: "photo", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
- - name: "about" # Used in routes, e.g., /admin/collections/blog
+  - name: "about" # Used in routes, e.g., /admin/collections/blog
     label: "About Secretariate" # Used in the UI
     folder: "content/about/secretariate.md" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -55,7 +56,7 @@ collections:
       - {label: "Featured Image", name: "photo", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
 
- - name: "partners" # Used in routes, e.g., /admin/collections/blog
+  - name: "partners" # Used in routes, e.g., /admin/collections/blog
     label: "Partners" # Used in the UI
     folder: "content/partners" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -69,8 +70,7 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
   
-
- - name: "contact" # Used in routes, e.g., /admin/collections/blog
+  - name: "contact" # Used in routes, e.g., /admin/collections/blog
     label: "Contact" # Used in the UI
     folder: "content/contact" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
